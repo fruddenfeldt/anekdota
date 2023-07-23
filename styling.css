@@ -4,6 +4,17 @@
     }
     
 
+.bottomBanner {
+    margin: 50px;
+    
+}
+
+#pageWrap {
+    display: flex;
+    flex-direction: row;
+    border: solid green 2px;
+}
+
     p {
         color: #333;
         font-size: 17px;
@@ -16,10 +27,7 @@
     }
 
 
-    .articleH1 {
-        
-    
-    }
+   
 
     .mainWrapper {
         display: flex;
@@ -35,16 +43,22 @@
         background-color: whitesmoke;
     }
 
-    .timelineWrapper {
+    .timelineBigWrapper {
         display: flex;
-        flex-direction: row;
-        nter;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
         margin-left: 30px;
         border: solid red 2px;
         width: 200px;;
-        height: 500px;
+        height: 600px;
         padding-top: 50px;
+
+    }
+
+    #timeLineWrapper {
+        display: flex;
+        flex-direction: row;
 
     }
 
@@ -55,24 +69,31 @@
         width: 100px;
         justify-content: center;
         
+        
 
     }
 
     .leftTextWrapper {
-        height: 350px;
+        height: 600px;
         width: 50px;
-        padding-top: 0px;
-        border: solid red 2px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rightTextWrapper {
+        height: 600px;
+        width: 50px;
+        
     }
 
     #longLine {
-        background-color: black;
-        height: 400px;
-        width: 2px;
+        background-color: grey;
+        height: 600px;
+        width: 4px;
     }
 
     .shortLine {
         width: 30px;
-        height: 2px;
-        background-color: black;
+        height: 4px;
+        background-color: grey;
     }
