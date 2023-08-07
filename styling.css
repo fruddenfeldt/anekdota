@@ -10,7 +10,7 @@ iframe {
 .menu-item .menu-content a {
     display: block; /* Make the <a> tags block elements */
     padding: 5px 0; /* Add some vertical spacing between items */
-    text-decoration: none; /* Optional: remove underlines */
+    /* text-decoration: none; /* Optional: remove underlines */
     color: inherit; /* Optional: make the link color inherit from parent */
 }
 
